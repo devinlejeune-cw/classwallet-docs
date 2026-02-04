@@ -56,13 +56,6 @@ session authentication. IMPORTANT. _Please do not enable this feature before con
 ClassWallet and informing them that you would like to enable the security token on your
 account._
 
-<img width="170" height="240" alt="image" src="https://github.com/user-attachments/assets/be37fd7b-60fa-4f5a-9ad4-ec9eb72c9201" />\
-When this option is enabled, and the customer clicks the button “Proceed to Classwallet
-Checkout,” the workflow skips over the shipping options portion of checkout, therefore, the field
-“Default Shipping Method” has been provided and will be used for the shipping method for this
-order. Note: With the button enabled, the customer will still have the option to proceed to
-checkout as normal, and select their preferred shipping method.
-
 ### Checkout Workflow: 
 Shipping address will be pre-populated with the data from ClassWallet.\
 <img width="177" height="172" alt="image" src="https://github.com/user-attachments/assets/e5a386a0-4265-4f5b-86a5-439e29bcf1f7" />\
