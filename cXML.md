@@ -194,6 +194,13 @@ It contains the order Id you will use to invoice ClassWallet.
 ### cXML Payloads
 
 **PunchOutSetupRequest**
+
+** Tax exemption status **
+
+```<Extrinsic name="TaxExempt">true</Extrinsic>```
+
+_**NOTE:** You will need to request to have this field enabled for your implementation.
+
 ```
 <?xml version="1.0"?>
 <!DOCTYPE cXML SYSTEM "http://xml.cxml.org/schemas/cXML/1.2.014/cXML.dtd">
