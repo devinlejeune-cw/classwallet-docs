@@ -63,6 +63,7 @@ Data is ‘application/x-www-form-urlencoded’ with one field named ‘request�
 {
   "id": "55e4dfa966304b4d06b2bff3",
   "authKey":"NWYwZDJiZDZkOWMxNTQyYzE1YmFmOTc5",
+  "taxExempt":true,
   "email": "somebody@example.com",
   "institution": "ABC Department of Education",
   "username": "Test Butler",
@@ -75,6 +76,9 @@ Data is ‘application/x-www-form-urlencoded’ with one field named ‘request�
 }
 ```
 The field **“authKey”** is provided as a verification code to confirm the request is authentic. To validate with this field, base 64 decode the value and compare it to your vendor Id. If the values match, it is a valid request from the ClassWallet marketplace.
+
+** Tax exemption status **
+_**NOTE:** You will need to request to have this field enabled for you implementation.
 
 ### Callback URL
 The callback URL can take any form you like as long as it includes an order Id. Since it is a GET request, you can either include the order Id in the URL or as a query parameter. For this example, the callback URL is `https://yourstore.com/api/invoice_process/<order_id>`
